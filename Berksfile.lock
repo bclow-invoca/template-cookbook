@@ -1,0 +1,11 @@
+DEPENDENCIES
+  template-cookbook
+    path: .
+    metadata: true
+
+GRAPH
+  iptables (1.0.0)
+  openssh (1.4.0)
+    iptables (>= 0.0.0)
+  template-cookbook (0.0.1)
+    openssh (= 1.4.0)
